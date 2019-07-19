@@ -37,9 +37,8 @@ public class TagFlowLayoutActivity extends AppCompatActivity implements View.OnC
         initView();
         initData();
         mAdapter = new MyTagAdapter();
-        ((MyTagAdapter) mAdapter).setDataList(dataList);
         tagFlowLayout.setAdapter(mAdapter);
-
+        ((MyTagAdapter) mAdapter).setDataList(dataList);
     }
 
     private void initData() {
@@ -116,11 +115,12 @@ public class TagFlowLayoutActivity extends AppCompatActivity implements View.OnC
     public class MyTagAdapter extends TagAdapter{
 
         public void setDataList(List<String> dataList) {
-            this.mDataList = dataList;
+            mDataList.clear();
+            mDataList.addAll(dataList);
             notifyDataSetChanged();
         }
 
-        private List<String> mDataList;
+        private List<String> mDataList = new ArrayList<>();
 
 
         @Override

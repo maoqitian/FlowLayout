@@ -19,7 +19,7 @@
         android:id="@+id/bt_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="购买 VIP "
+        android:text="其他风格 tag"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bt_1" />
