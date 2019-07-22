@@ -1,4 +1,6 @@
 # FlowLayout
+[ ![Download](https://api.bintray.com/packages/maoqitian/mqt/flexibleflowlayout/images/download.svg) ](https://bintray.com/maoqitian/mqt/flexibleflowlayout/_latestVersion)
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ## 项目引入
 - 将以下依赖项添加到build.gradle文件
 ```
