@@ -107,6 +107,11 @@ getSelectPositionItemList | List<Integer> | 获取选中子View 的位置集合
 ## License
 
 ```
+
+# Thanks
+- [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+
+
 Copyright 2019 maoqitian
 
 Licensed under the Apache License, Version 2.0 (the "License");
