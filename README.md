@@ -104,13 +104,11 @@ method name |  return | description
 ---|---|---
 setMaxSelectCount(int maxSelectCount) | void | 设置可以选择多少个tag  默认单选,设置为零 则没有单选和多选效果，纯展示tag
 getSelectPositionItemList | List<Integer> | 获取选中子View 的位置集合
+# Thanks
+- [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
 ## License
 
 ```
-
-# Thanks
-- [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
-
 
 Copyright 2019 maoqitian
 
