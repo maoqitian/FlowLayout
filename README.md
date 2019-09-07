@@ -2,7 +2,7 @@
 [ ![Download](https://api.bintray.com/packages/maoqitian/mqt/flexibleflowlayout/images/download.svg) ](https://bintray.com/maoqitian/mqt/flexibleflowlayout/_latestVersion)
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ## 项目简介
-- 一款方便好用，让流式布局实现更简单的开源库。
+- 一款方便好用，让流式布局实现更简单的开源库，单选，多选，灵活配置，也可纯展示流式布局，流式布局item 也能随意自行配置。
 ## 项目引入
 - 将以下依赖项添加到build.gradle文件
 ```
@@ -10,8 +10,9 @@ dependencies {
     implementation 'com.mao:flexibleflowlayout:1.0.0'
 }
 ```
-
-
+## Demo 展示
+<img src="https://raw.githubusercontent.com/maoqitian/MaoMdPhoto/master/flowlayout/common.jpg"  height="300" width="170">
+<img src="https://raw.githubusercontent.com/maoqitian/MaoMdPhoto/master/flowlayout/otherstyle.jpg"  height="300" width="170">
 ## 如何使用
 - xml 布局
 
